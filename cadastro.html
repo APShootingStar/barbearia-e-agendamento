@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+</head>
+<body>
+
+    <main>
+        <h2>Crie sua conta</h2>
+        <form action="/api/cadastro" method="post">
+            <div>
+                <label for="nome_cliente">Nome Completo:</label>
+                <input type="text" name="nome" id="nome_cliente" required>
+            </div>
+
+            <div>
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" name="username" id="username" required>
+            </div>
+
+            <div>
+                <label for="telefone_cliente">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone_cliente" required>
+            </div>
+
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required>
+            </div>
+            
+            <div>
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+</html>
