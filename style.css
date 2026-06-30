@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 
-
+/* =========================================
+   HOME PAGE(Tudo ok, só falta as media quares)
+   ========================================= */
 
 body {
   background-image: url('assets/images/fundo.jpg');
@@ -190,3 +192,163 @@ footer {
     opacity: 0.8;
 }
 
+/* =========================================
+            FIM HOME PAGE
+   ========================================= */
+
+   /* =========================================
+            TELA LOGIN 
+   ========================================= */
+
+
+.pagina-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    padding: 40px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.login-container input {
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+}
+
+.login-container p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.login-container a {
+    color: #c89116;
+    text-decoration: none;
+}
+
+.login-container button {
+    margin: 10px auto;
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: 2px solid #c89116;
+    background: transparent;
+    color: #c89116;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-container button:hover {
+    background: #c89116;
+    color: #000000;
+}
+
+/* =========================================
+            FIM LOGIN
+   ========================================= */
+
+   /* =========================================
+            CADASTRO
+   ========================================= */
+
+
+.pagina-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+
+
+.pagina-cadastro form {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    padding: 40px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pagina-cadastro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pagina-cadastro div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pagina-cadastro input {
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.pagina-cadastro button {
+    margin-top: 10px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: 2px solid #c89116;
+    background: transparent;
+    color: #c89116;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pagina-cadastro button:hover {
+    background: #c89116;
+    color: #000000;
+}
+
+/* =========================================
+            FIM CADASTRO
+   ========================================= */
+
+   /* =========================================
+        PÁGINA DE ADMINISTRAÇÃO (em processo)
+   ========================================= */

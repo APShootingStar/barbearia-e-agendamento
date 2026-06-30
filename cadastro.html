@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Cadastre-se</title>
 </head>
 <body>
 
-    <main>
+    <main class="pagina-cadastro">
+
         <h2>Crie sua conta</h2>
-        <form action="/api/cadastro" method="post">
+        <form action="cadastro" method="post">
             <div>
                 <label for="nome_cliente">Nome Completo:</label>
                 <input type="text" name="nome" id="nome_cliente" required>
@@ -25,11 +27,6 @@
                 <input type="tel" name="telefone" id="telefone_cliente" required>
             </div>
 
-            <div>
-                <label for="senha">Senha:</label>
-                <input type="password" name="senha" id="senha" required>
-            </div>
-            
             <div>
                 <button type="submit">Cadastrar</button>
             </div>

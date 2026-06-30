@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Barbearia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <main>
-        <h2>Acesse sua conta</h2>
-        
-        <form action="/api/login" method="post">
-            <div>
-                <label for="username">Nome de Usuário:</label>
-                <input type="text" name="username" id="username" required>
-            </div>
+    <main class="pagina-login">
 
-            <div>
-                <label for="senha">Senha:</label>
-                <input type="password" name="senha" id="senha" required>
-            </div>
-            
-            <div>
-                <button type="submit">Entrar</button>
-            </div>
-        </form>
+        <div class="login-container">
+            <h2>Acesse sua conta</h2>
 
-        <p>Ainda não tem conta? <a href="cadastro.html">Cadastre-se aqui</a></p>
+
+            <form action="login" method="post">
+                <div>
+                    <label for="username">Nome de Usuário:</label>
+                    <input type="text" name="username" id="username" required>
+                </div>
+
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" required>
+                </div>
+
+                <p>Ainda não tem conta? <a href="cadastro.html">Cadastre-se aqui</a></p>
+
+                <div>
+                    <button type="submit">Entrar</button>
+                </div>
+            </form>
+        </div>
     </main>
 
 </body>
+
 </html>
