@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendamento</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+    
 <body>
-    <h1>Agendamento de Horário</h1>
+     
+    <section class="card-servico">
+      <h1> Agende seu horário já</h1>
+        <div id="quadro-agendamento">
+            <label for="servico">Escolha um serviço: </label required> <br>
+            <input type="text" id="servicos" list="servico-opcoes">
+            <datalist id="servico-opcoes">
+                <option value="Barba">
+                <option value="Corte de cabelo">
+                <option value="Sobrancelha">
+            </datalist>
+            <br>
+            <label for="horario"> Escolha o dia e horário desejado:</label>
+            <br> <br>
+            <input type="date" name="data-agendamento" id="data-servico" required>
+            <input type="time" name="hora-agendamento" id="hora-servico" required>
+            <br> <br>
+            <Span>Deseja agendar mais um serviço? </span>
+            <button type="submit">Escolher outro serviço</button>
+        </div>
+    </section>
+
+    <button type="submit">Agendar</button>
 </body>
+
 </html>
