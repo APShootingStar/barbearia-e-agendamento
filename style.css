@@ -350,5 +350,39 @@ footer {
    ========================================= */
 
    /* =========================================
-        PÁGINA DE ADMINISTRAÇÃO (em processo)
+        PÁGINA DE AGENDAMENTO (EM PROCESSO)
    ========================================= */
+
+ .card-servico{
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    padding: 40px; 
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+ }
+
+.card-servico div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card-servico input {
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    color: #ffffff;
+}
+ .card-servico h1{
+ text-align: center;
+ 
+ }
+
+ 
