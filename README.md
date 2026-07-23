@@ -33,6 +33,6 @@ O projeto Barbearia e Agendamento, é um website que inclui banco de dados, agen
 🔧 Kaua Duarte |@BanguelaRS
 
 
-🔧 Pedro Brites
+🔧 Pedro Passos
 
 © 2026
